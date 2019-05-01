@@ -13,6 +13,11 @@ let routes = [
     "exact": true
   },
   {
+    "path": "/content",
+    "component": require('../Content').default,
+    "exact": true
+  },
+  {
     "component": () => React.createElement(require('C:/ReactPro/react-antd-admin-pro/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', hasRoutesInConfig: true })
   }
 ];
